@@ -1,0 +1,25 @@
+{
+  "name": "automationpractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "Cucumber-js ./features --tags @Regression --format json:cucumber_report.json && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sppatel84/AutomationPractice.git"
+  },
+  "author": "Sudip Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sppatel84/AutomationPractice/issues"
+  },
+  "homepage": "https://github.com/sppatel84/AutomationPractice#readme",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.1.2",
+    "chai": "^4.3.6",
+    "cucumber-html-reporter": "^5.5.0",
+    "playwright": "^1.21.1"
+  }
+}
